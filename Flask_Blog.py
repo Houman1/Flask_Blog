@@ -3,6 +3,7 @@ from flask import Flask, escape, request, render_template, url_for
 app = Flask(__name__)
 
 posts = [
+
     {"author": "Houman Houshidar",
      "title": "arm wrestling pro question",
      "content": "how do I become a pro arm wrestler?",
